@@ -75,6 +75,37 @@ namespace Tool
                 }
             }
 
+            // Mountain
+            float targetMountainPercentage = aParemeters.Data.mountainPercentage;
+            for (int y = 0; y < height; ++y)
+            {
+                for (int x = 0; x < width; ++x)
+                {
+                    if (buffer[y][x] == TileType.Plain && randomizer.Next(0, 101) < 40 + 40.0f * targetMountainPercentage)
+                    {
+                        buffer[y][x] = TileType.Mountain;
+                    }
+                }
+            }
+
+            for (int i = 0; i < 5; ++i)
+            {
+                for (int y = 0; y < height; ++y)
+                {
+                    for (int x = 0; x < width; ++x)
+                    {
+                        if (buffer[y][x] == TileType.Plain && GetAliveNeighbourCount(TileType.Mountain, buffer, y, x) >= 5 && GetAliveNeighbourCount(TileType.Water, buffer, y, x) == 0)
+                        {
+                            buffer[y][x] = TileType.Mountain;
+                        }
+                        if (buffer[y][x] == TileType.Mountain && GetAliveNeighbourCount(TileType.Mountain, buffer, y, x) < 4)
+                        {
+                            buffer[y][x] = TileType.Plain;
+                        }
+                    }
+                }
+            }
+
             // Forest
             float targetForestPercentage = aParemeters.Data.forestPercentage;
             for (int y = 0; y < height; ++y)
@@ -101,37 +132,6 @@ namespace Tool
                         if (buffer[y][x] == TileType.Forest && GetAliveNeighbourCount(TileType.Forest, buffer, y, x) < 4)
                         {
                             buffer[y][x] = TileType.Plain;
-                        }
-                    }
-                }
-            }
-
-            // Mountain
-            float targetMountainPercentage = aParemeters.Data.mountainPercentage;
-            for (int y = 0; y < height; ++y)
-            {
-                for (int x = 0; x < width; ++x)
-                {
-                    if (buffer[y][x] != TileType.Water && randomizer.Next(0, 101) < 40 + 40.0f * targetMountainPercentage)
-                    {
-                        buffer[y][x] = TileType.Mountain;
-                    }
-                }
-            }
-
-            for (int i = 0; i < 5; ++i)
-            {
-                for (int y = 0; y < height; ++y)
-                {
-                    for (int x = 0; x < width; ++x)
-                    {
-                        if ((buffer[y][x] == TileType.Plain || buffer[y][x] == TileType.Forest) && (GetAliveNeighbourCount(TileType.Forest, buffer, y, x) >= 5 || GetAliveNeighbourCount(TileType.Plain, buffer, y, x) >= 5))
-                        {
-                            buffer[y][x] = TileType.Mountain;
-                        }
-                        if ((buffer[y][x] == TileType.Mountain) && (GetAliveNeighbourCount(TileType.Forest, buffer, y, x) < 4 || GetAliveNeighbourCount(TileType.Plain, buffer, y, x) < 4))
-                        {
-                            buffer[y][x] = TileType.Forest;
                         }
                     }
                 }
