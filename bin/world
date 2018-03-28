@@ -1,0 +1,10 @@
+{
+  "width": 64,
+  "height": 64,
+  "waterPercentage": 0.35,
+  "waterBodyBias": 0.5,
+  "landPercentage": 0.65,
+  "plainPercentage": 0.33333,
+  "forestPercentage": 0.33333,
+  "mountainPercentage": 0.33333
+}

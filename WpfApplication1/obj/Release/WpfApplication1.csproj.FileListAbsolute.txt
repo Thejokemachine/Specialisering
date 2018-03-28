@@ -1,0 +1,14 @@
+C:\Users\Joakim.bensryd\Desktop\Specialisering\bin\Tool.exe.config
+C:\Users\Joakim.bensryd\Desktop\Specialisering\bin\Tool.exe
+C:\Users\Joakim.bensryd\Desktop\Specialisering\bin\Tool.pdb
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\Tool_MarkupCompile.cache
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\Tool_MarkupCompile.lref
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\Tool.g.resources
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\Tool.Properties.Resources.resources
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\Tool.exe
+C:\Users\Joakim.bensryd\Desktop\Specialisering\WpfApplication1\obj\Release\Tool.pdb

@@ -1,0 +1,50 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  compilation object save succeeded; see C:\Users\Joakim.bensryd\Desktop\Specialisering\Bin\geometryShader.cso
+  compilation object save succeeded; see C:\Users\Joakim.bensryd\Desktop\Specialisering\Bin\pixelShader.cso
+  compilation object save succeeded; see C:\Users\Joakim.bensryd\Desktop\Specialisering\Bin\vertexShader.cso
+  Base.cpp
+  DirectXFramework.cpp
+Engine\DirectXFramework.cpp(49): warning C4244: '=': conversion from 'const UINT' to 'FLOAT', possible loss of data
+Engine\DirectXFramework.cpp(50): warning C4244: '=': conversion from 'const UINT' to 'FLOAT', possible loss of data
+  GraphicsEngine.cpp
+c:\users\joakim.bensryd\desktop\specialisering\engine\engine\ShaderCompiler.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  DDSTextureLoader.cpp
+  pch.cpp
+  Sprite.cpp
+c:\users\joakim.bensryd\desktop\specialisering\engine\engine\ShaderCompiler.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Texture.cpp
+  TextureLoader.cpp
+  WindowHandler.cpp
+  Scene.cpp
+Engine\Scene.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  SpriteRenderer.cpp
+c:\users\joakim.bensryd\desktop\specialisering\engine\engine\ShaderCompiler.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  ShaderCompiler.cpp
+c:\users\joakim.bensryd\desktop\specialisering\engine\engine\ShaderCompiler.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Engine\ShaderCompiler.cpp(15): warning C4100: 'aShaderToLoadInto': unreferenced formal parameter
+Engine\ShaderCompiler.cpp(15): warning C4100: 'aShaderType': unreferenced formal parameter
+Engine\ShaderCompiler.cpp(15): warning C4100: 'aEntryPoint': unreferenced formal parameter
+Engine\ShaderCompiler.cpp(15): warning C4100: 'aIncludePath': unreferenced formal parameter
+Engine\ShaderCompiler.cpp(15): warning C4100: 'aFileName': unreferenced formal parameter
+Engine\ShaderCompiler.cpp(26): warning C4189: 'include': local variable is initialized but not referenced
+Engine\ShaderCompiler.cpp(23): warning C4189: 'errorBlob': local variable is initialized but not referenced
+Engine\ShaderCompiler.cpp(17): warning C4189: 'compileFlags': local variable is initialized but not referenced
+  Shader.cpp
+c:\users\joakim.bensryd\desktop\specialisering\engine\engine\ShaderCompiler.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  InputManager.cpp
+Utilities\InputManager.cpp(115): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+Utilities\InputManager.cpp(116): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+Utilities\InputManager.cpp(128): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  SmallString.cpp
+SmallString.cpp(19): warning C4554: '^': check operator precedence for possible error; use parentheses to clarify precedence
+SmallString.cpp(44): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+SmallString.cpp(51): warning C4018: '<': signed/unsigned mismatch
+SmallString.cpp(53): warning C4189: 'what': local variable is initialized but not referenced
+SmallString.cpp(70): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+SmallString.cpp(78): warning C4018: '<': signed/unsigned mismatch
+SmallString.cpp(96): warning C4018: '<': signed/unsigned mismatch
+SmallString.cpp(117): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+SmallString.cpp(126): warning C4018: '<': signed/unsigned mismatch
+  Transform.cpp
+  Time.cpp
+  Engine.vcxproj -> C:\Users\Joakim.bensryd\Desktop\Specialisering\Bin\Engine.lib
